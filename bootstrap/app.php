@@ -21,6 +21,9 @@ $app = new Laravel\Lumen\Application(
 
 $app->withFacades();
 
+$app->configure('game');
+require_once __DIR__.'/../app/Http/helpers.php';
+
 // $app->withEloquent();
 
 /*
