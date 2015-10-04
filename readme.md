@@ -17,6 +17,10 @@ Make artisan runnable:
 
     $ chmod +x ./artisan
     
+Make `storage` folder writable:
+
+    $ chmod 775 storage
+    
 Generate an app secret key:
 
     $ echo "<?php echo md5(uniqid()) . \"\r\n\";" | php
