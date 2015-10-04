@@ -16,7 +16,7 @@ class GameController extends BaseController {
                 while(true) {
                     echo streamedData($data);
                     // Send a message on custom channel
-                    // echo streamedData($data, time);
+                    // echo streamedData($data, 'time');
                     ob_flush();
                     flush();
                     sleep(config('game.turn_length'));
