@@ -19,7 +19,7 @@ Make artisan runnable:
     
 Make `storage` folder writable:
 
-    $ chmod 775 storage
+    $ chmod -R 775 storage
     
 Generate an app secret key:
 
