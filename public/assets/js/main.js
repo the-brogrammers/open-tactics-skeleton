@@ -1,5 +1,5 @@
 var gameServer = new GameServer({
-    url: config.url,
+    url: config.gameUrl,
     forceAjax: true
 });
 
