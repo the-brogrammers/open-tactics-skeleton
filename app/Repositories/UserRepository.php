@@ -54,7 +54,8 @@ class UserRepository {
         $now = time();
         $token = $this->getToken($this->tokenLength);
         $data = [
-            'access_token' => $token
+            'access_token' => $token,
+            'updated_at' => time()
         ];
 
         app('db')
